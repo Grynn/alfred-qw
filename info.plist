@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.vero.gettingstarted.keywords</string>
+	<key>connections</key>
+	<dict>
+		<key>BF0C68BF-1406-40FD-8E2C-F7A7F5E21D63</key>
+		<array/>
+	</dict>
+	<key>createdby</key>
+	<string>Vero Pepperrell</string>
+	<key>description</key>
+	<string>Quote Words</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>qw</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>100</integer>
+				<key>keyword</key>
+				<string>qw</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>&lt;?php 
+$q1 = $argv[1];
+$q1 = 
+echo '&lt;?xml version="1.0"?&gt;';
+echo &lt;&lt;&lt;XML
+&lt;output&gt;
+&lt;items&gt;
+&lt;item&gt;
+	&lt;title arg="$q1" valid="YES"&gt;'$q1'&lt;/title&gt;
+	&lt;text type="copy"&gt;'$q1'&lt;/text&gt;	
+&lt;/item&gt;
+&lt;/items&gt;
+&lt;/output&gt;
+XML;
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>qw.php</string>
+				<key>subtext</key>
+				<string>Enter comma separated terms</string>
+				<key>title</key>
+				<string>Quote words...</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>BF0C68BF-1406-40FD-8E2C-F7A7F5E21D63</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Keywords are one of Alfred's most commonly used and most useful ways of launching actions. Set a keyword and connect it to the action(s) you want to perform.
+
+Type your keyword into Alfred, followed by your input text if needed, and you'll be on your way to boosting your productivity!</string>
+	<key>uidata</key>
+	<dict>
+		<key>BF0C68BF-1406-40FD-8E2C-F7A7F5E21D63</key>
+		<dict>
+			<key>xpos</key>
+			<integer>70</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>1.0</string>
+	<key>webaddress</key>
+	<string>https://www.alfredapp.com</string>
+</dict>
+</plist>
