@@ -1,5 +1,11 @@
 {
-    "require": {
-        "clue/arguments": "^2.0"
+  "require": {
+    "clue/arguments": "dev-custom-whitespace"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/grynn/php-arguments"
     }
+  ]
 }
