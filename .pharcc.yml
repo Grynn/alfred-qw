@@ -1,0 +1,10 @@
+name: qw.phar
+main: qw.php
+include:
+  - vendor/
+exclude:
+  - "/[Tt]ests?/"
+  - "Test\.php$"
+  - "/docs?/"
+  - "^vendor/phpunit"
+  - database/

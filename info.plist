@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.alfredapp.vero.gettingstarted.keywords</string>
+	<string>com.alfredapp.grynn.qw</string>
 	<key>connections</key>
 	<dict>
 		<key>BF0C68BF-1406-40FD-8E2C-F7A7F5E21D63</key>
 		<array/>
 	</dict>
 	<key>createdby</key>
-	<string>Vero Pepperrell</string>
+	<string>Grynn</string>
 	<key>description</key>
-	<string>Quote Words</string>
+	<string>Quote Words: Quick make arrays from a string of words for JS / PHP etc</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -98,6 +98,6 @@ Type your keyword into Alfred, followed by your input text if needed, and you'll
 	<key>version</key>
 	<string>1.0</string>
 	<key>webaddress</key>
-	<string>https://www.alfredapp.com</string>
+	<string>https://github.com/Grynn/alfred-qw</string>
 </dict>
 </plist>
